@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+.container > header {
+    background-image: url('/HTML/images/phongcanh.jpg');
+    background-size: 100% 100%;
+    height: 0;
+    padding-bottom: 25%;
+}
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    background-color: orangered;
+    padding-right: 40px;
+    padding-left: 40px;
+    line-height: 40px;
+    box-shadow: 0px 0px 15px white;
+}
+.top-right > a {
+    font-size: large;
+    color: white;
+    font-variant: small-caps;
+    margin: 10px;
+    text-decoration: none;
+}
+.container > nav {
+    line-height: 50px;
+    background-color: orangered;
+}
+.container > .left > ul {
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    justify-content: flex-start;
+}
+.container > .left > ul > li {
+    margin-right: 15px;
+    position: relative;
+}
+.right {
+    margin-left: auto;
+    display: flex;
+}
+.right a {
+    margin-left: 10px;
+}
+.container > .left > ul > li a {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.container > .left > ul > li a:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
+.company-info {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    min-height: 150px;
+}
+.company-info > .fpt {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 0 0 10px orangered;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 5px;
+}
+.company-info > .thuc {
+    font-variant: small-caps;
+    color: orangered;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.company-info hr {
+    border: 1px solid orangered;
+    margin: 0;
+}
